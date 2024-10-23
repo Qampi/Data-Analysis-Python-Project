@@ -3,6 +3,9 @@
 Project Title: 
 Analyzing Capetown Informal Settlements Expansion (2018-2024) Dataset: Dataset.csv 
 
+Project Overview:
+This data analysis project is to analyse how informal settlements and population have expanded over the years in the Western Cape Province from 2018 to 2024. 
+
 Pandas:
 I imported pandas because of the dataset i was handling from the Kaggel was on a spreadsheet. 
 
