@@ -21,4 +21,5 @@ Recommendations:
 2.⁠ ⁠Exploration of relationships between population and area. 3.⁠ ⁠Investigation of socioeconomic implications. 
 
 How to Run this code:
->on your terminal type 'python Dataset.py'
+open a new terminal
+on your terminal type 'python Dataset.py'
