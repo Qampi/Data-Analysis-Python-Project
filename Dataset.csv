@@ -1,0 +1,16 @@
+DATA:
+| Year | Settlement_Name | Location | Population | Area_Sq_Km | 
+| --- | --- | --- | --- | --- | 
+| 2018 | Khayelitsha | Eastern Cape | 400000 | 43.9 |
+| 2018 | Gugulethu | Western Cape | 80000 | 3.1 | 
+| 2019 | Langa | Western Cape | 50000 | 2.5 | 
+| 2019 | Nyanga | Western Cape | 60000 | 2.9 | 
+| 2020 | Mitchells Plain | Western Cape | 300000 | 43.7 | 
+| 2020 | Manenberg | Western Cape | 50000 | 2.3 | 
+| 2021 | Delft | Western Cape | 30000 | 2.1 | 
+| 2021 | Atlantis | Western Cape | 60000 | 3.4 | 
+| 2022 | Bonteheuwel | Western Cape | 40000 | 2.2 | 
+| 2022 | Valhalla Park | Western Cape | 30000 | 1.9 | 
+| 2023 | Heideveld | Western Cape | 50000 | 2.6 | 
+| 2023 | Philippi | Western Cape | 200000 | 12.5 | 
+| 2024 | Worcester | Western Cape | 100000 | 6.8 |
