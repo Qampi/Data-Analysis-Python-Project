@@ -40,17 +40,6 @@ plt.ylabel('Population')
 plt.title('Capetown Informal Settlements Population Growth')
 plt.show()
 
-# Data Manipulation
-# Example 1: Grouping by a categorical variable and finding the mean of a numerical column
-grouped_df = df.groupby('category_column')['numerical_column'].mean()  # Replace as needed
-print("\nGrouped Data (Mean of numerical_column by category_column):")
-print(grouped_df)
-
-# Example 2: Creating a new column by applying a calculation (replace 'existing_column' with an actual column)
-df['new_column'] = df['existing_column'] * 2  # Replace as needed
-print("\nData with New Column:")
-print(df.head())
-
 # Bar chart for location-wise population
 location_groups = df.groupby('Location')['Population'].sum().reset_index()
 plt.figure(figsize=(10, 6))
@@ -68,6 +57,28 @@ plt.figure(figsize=(10, 6))
 plt.pie(year_groups['Population'], labels=year_groups['Year'], autopct='%1.1f%%')
 plt.title('Year-wise Population Distribution')
 plt.show()
+
+# Line chart for population-wise year
+population_groups = df-groupby('Population')['Ýear'].sum().reset_index
+plt.figure(figsize=(10, 6))
+plt.bar(Population_groups['Population'], Population_groups['Year'])
+plt.xlabel('Population')
+plt.ylabel('Year')
+plt.title('Population-wise Year Distribution')
+plt.xticks(rotation=45)  # Rotate x-axis labels if there are many locations
+plt.tight_layout()
+plt.show()
+
+# Data Manipulation
+# Example 1: Grouping by a categorical variable and finding the mean of a numerical column
+grouped_df = df.groupby('category_column')['numerical_column'].mean()  # Replace as needed
+print("\nGrouped Data (Mean of numerical_column by category_column):")
+print(grouped_df)
+
+# Example 2: Creating a new column by applying a calculation (replace 'existing_column' with an actual column)
+df['new_column'] = df['existing_column'] * 2  # Replace as needed
+print("\nData with New Column:")
+print(df.head())
 
 # Data analysis
 population_growth = df['Population'].sum()
