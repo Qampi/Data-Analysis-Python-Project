@@ -4,7 +4,7 @@ Project Title:
 Analyzing Western Cape Informal Settlements Expansion (2018-2024) Dataset: Dataset.csv 
 
 Project Overview:
-This data analysis project is to analyse how informal settlements and population have expanded over the years in the Western Cape Province from 2018 to 2024. 
+This data analysis project is to analyse how population have expanded over the years in the Western Cape Province informal settlements from 2018 to 2024. 
 
 Pandas:
 I imported pandas because of the dataset i was handling from the Kaggel was on a spreadsheet. 
